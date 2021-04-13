@@ -1,4 +1,4 @@
 <?php
-$conexion=mysqli_connect("localhost", "root", "", "pruebas_final", 3308);
+$conexion=mysqli_connect("localhost", "root", "", "pruebas_final");
 
 ?>
