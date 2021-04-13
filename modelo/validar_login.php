@@ -12,11 +12,11 @@
     $filas = mysqli_num_rows($resultado);
 
     if($filas){
-        header("location:../vista/index.html");
+        header("location:../vista/dashboard.html");
     }else{
         ?>
         <?php
-        include("../vista/index.html");
+        include("../vista/dashboard.html");
         ?>
         <h1 class="bad">Error en la autenticación</h1>
         <?php
