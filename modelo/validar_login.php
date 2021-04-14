@@ -16,9 +16,17 @@
     }else{
         ?>
         <?php
-        include("../vista/dashboard.html");
+        include("../vista/login.html");
         ?>
-        <h1 class="bad">Error en la autenticación</h1>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script>
+            Swal.fire({
+            title: 'Error',
+            text: 'Nit y/o contraseña inválidos',
+            icon: 'warning',
+            });
+        </script>
+
         <?php
     }
 mysqli_free_result($resultado);
