@@ -6,13 +6,15 @@
 
     include('../conexion/conexion.php');
 
-    $consulta="SELECT * FROM usuario WHERE nit='$nit' AND contrasena='$contrasena'";
+    $consulta="SELECT COUNT(*) as contar FROM usuario WHERE nit='$nit' AND contrasena='$contrasena'";
     $resultado=mysqli_query($conexion, $consulta);
 
-    $filas = mysqli_num_rows($resultado);
+    $filas = mysqli_fetch_array($resultado);
+    //$filas = mysqli_num_rows($resultado);
 
-    if($filas){
-        header("location:../vista/dashboard.html");
+    if($filas['contar']>0){
+        $_SESSION['nit']= $nit;
+        header("location:../vista/dashboard.php");
     }else{
         ?>
         <?php
