@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    $nit = $_SESSION['nit'];
+
+    if(!isset($nit)){
+        header("location:../vista/login.html");
+    }else{
+        
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +32,7 @@
   
     <ul class="nav flex-column bg-dark mb-0">
       <li class="nav-item">
-        <a href="dashboard.html" class="nav-link text-light font-italic">
+        <a href="dashboard.php" class="nav-link text-light font-italic">
                   <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
                   Inicio
               </a>
@@ -75,7 +84,7 @@
     <p class="text-gray font-weight-bold text-uppercase px-3 small py-2 mb-0">Más</p>
     <ul class="nav flex-column bg-dark mb-0">
         <li class="nav-item">
-            <a href="login.html" class="nav-link text-light font-italic">
+            <a href="../modelo/cerrar_sesion.php" class="nav-link text-light font-italic">
                 <button class="btn btn-danger">Cerrar sesión</button></br></br>  
             </a>
             
@@ -216,3 +225,7 @@
 
 </body>
 </html>
+
+<?php
+    }
+?>
