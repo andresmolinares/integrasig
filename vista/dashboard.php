@@ -17,9 +17,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../estilos/sidebar-style.css">
+    
+    <link href="../estilos/sidebar-style.css" rel="stylesheet">
 </head>
-
 <!--NAVBAR VERTICAL-->
 <div class="vertical-nav bg-dark" id="sidebar">
     <div class="py-4 px-3 mb-4 bg-dark">
@@ -96,22 +96,26 @@
     </ul>
 
   </div>
-  <!-- End vertical navbar -->
-  
+  <!-- End vertical navbar-->
+
   
   <!-- Page content holder -->
 
     
 <body>  
+
+<!--SIDEBAR-->
+
 <div class="page-content p-5" id="content">
  <!-- Demo content -->
- <h2 class="display-4 text-dark fw-bold">¡Bienvenido a INTEGRASIG!</h2>
+ <h2 class="display-5 text-dark fw-bold">¡Bienvenido a INTEGRASIG!</h2>
  <p class="lead text-dark mb-0">Centro de gestión para seguimiento de implementación de los sistemas de gestión integrados.</p>
 
  <div class="separator"></div>
 
 </div>
-
+<script src="../estilos/sidebars.js"></script>
+<script src="../estilos/js/bootstrap.bundle.js"></script>
 </body>
 </html>
 <?php
