@@ -71,12 +71,6 @@ if (!isset($nit)) {
 
             }
 
-            .mitadnavbar{
-
-                margin-top:;
-                margin-bottom:;
-
-            }
 
             .menuDesple{
 
