@@ -3,7 +3,7 @@ session_start();
 $nit = $_SESSION['nit'];
 
 if (!isset($nit)) {
-    header("location:../vista/login.html");
+    header("location:../login.html");
 } else {
 
 ?>
@@ -138,6 +138,7 @@ if (!isset($nit)) {
                                         'Archivo:<input type="file" id="swal-input3" class="swal2-input">'
                                         ,
                                     focusConfirm: false,
+                                    showCancelButton: true,
                                     preConfirm: () => {
                                         return [
                                             document.getElementById('swal-input1').value,
@@ -259,6 +260,7 @@ if (!isset($nit)) {
                                         'Archivo:<input type="file" id="swal-input3" class="swal2-input">'
                                         ,
                                     focusConfirm: false,
+                                    showCancelButton: true,
                                     preConfirm: () => {
                                         return [
                                             document.getElementById('swal-input1').value,

@@ -111,7 +111,7 @@
               <div class="card shadow p-3 mb-5 bg-body rounded">
                 
                 <div class="card-body">
-                    <a href="estandares/estandar-1.php" class="text-dark"><h5 class="card-title">Estándar 1</h5></a>
+                    <a href="estandares/estandar-1items.php" class="text-dark"><h5 class="card-title">Estándar 1</h5></a>
                   
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>

@@ -3,7 +3,7 @@ session_start();
 $nit = $_SESSION['nit'];
 
 if (!isset($nit)) {
-    header("location:../vista/login.html");
+    header("location:../login.html");
 } else {
 
 ?>
@@ -145,7 +145,7 @@ if (!isset($nit)) {
         <div class="eticVol">
         <ul class="nav flex-column bg-dark mb-0">
             <li class="nav-item">
-                <a href="../dashboard.php" class="nav-link text-light font-italic">
+                <a href="estandar-1items.php" class="nav-link text-light font-italic">
                     <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
                     Volver
                 </a>
@@ -327,7 +327,7 @@ if (!isset($nit)) {
                         <button  type="submit" class="btn btn-warning boton1">Siguiente</button>
                         
                         
-                        <button  type="submit" class="btn btn-primary boton2">Atras</button>
+                        <a href="estandar-1items.php" class="btn btn-primary boton2">Atras</a>
                         
 
                         </div>
