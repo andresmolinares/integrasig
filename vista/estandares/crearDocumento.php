@@ -142,6 +142,7 @@ if (!isset($nit)) {
         </div>
 
         
+
         <div class="eticVol">
         <ul class="nav flex-column bg-dark mb-0">
             <li class="nav-item">
@@ -156,7 +157,7 @@ if (!isset($nit)) {
 
         <p class="text-gray font-weight-bold text-uppercase px-3 small py-4 mb-0">Seguridad y salud en el trabajo</p>
 
-        
+        <!-- inicio menu desplegable-->
                 <div class="menuDesple">
 
                  <ul class="navbar-nav ml-auto">
@@ -214,6 +215,7 @@ if (!isset($nit)) {
         </div>
 
         </div>
+        <!-- fin menu desplegable-->
 
               
               

@@ -31,6 +31,71 @@ if (!isset($nit)) {
             .btns-cre-su {
                 padding-bottom: 4px;
             }
+
+            .eticVol{
+
+            margin-left:90px;  
+            position:relative;
+            bottom:15px;
+
+            }
+
+
+                 .menuDesple{
+
+                margin-left:15px;
+                margin-bottom:10px;
+
+                }
+
+
+
+                @media (min-width: 992px) {
+                .animate {
+                    animation-duration: 0.3s;
+                    -webkit-animation-duration: 0.3s;
+                    animation-fill-mode: both;
+                    -webkit-animation-fill-mode: both;
+                }
+                }
+
+                @keyframes slideIn {
+                0% {
+                    transform: translateY(1rem);
+                    opacity: 0;
+                }
+                100% {
+                    transform:translateY(0rem);
+                    opacity: 1;
+                }
+                0% {
+                    transform: translateY(1rem);
+                    opacity: 0;
+                }
+                }
+
+                @-webkit-keyframes slideIn {
+                0% {
+                    -webkit-transform: transform;
+                    -webkit-opacity: 0;
+                }
+                100% {
+                    -webkit-transform: translateY(0);
+                    -webkit-opacity: 1;
+                }
+                0% {
+                    -webkit-transform: translateY(1rem);
+                    -webkit-opacity: 0;
+                }
+                }
+
+                .slideIn {
+                -webkit-animation-name: slideIn;
+                animation-name: slideIn;
+                }
+
+
+
         </style>
 
 
@@ -45,60 +110,79 @@ if (!isset($nit)) {
             </div>
         </div>
 
-        <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Principal</p>
-
+        <div class="eticVol">
         <ul class="nav flex-column bg-dark mb-0">
             <li class="nav-item">
-                <a href="../dashboard.php" class="nav-link text-light font-italic">
+                <a href="../sg-sst.php" class="nav-link text-light font-italic">
                     <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
-                    Inicio
+                    Volver
                 </a>
             </li>
+        </div>
+    
+        <div class="mitadnavbar">
 
-            <li class="nav-item">
-                <a href="#" class="nav-link text-light font-italic">
-                    <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
-                    About
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link text-light font-italic">
-                    <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
-                    Services
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link text-light font-italic">
-                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
-                    Gallery
-                </a>
-            </li>
-        </ul>
+        <p class="text-gray font-weight-bold text-uppercase px-3 small py-4 mb-0">Seguridad y salud en el trabajo</p>
 
-        <p class="text-gray font-weight-bold text-uppercase px-3 small py-4 mb-0">Sistemas de gestión</p>
+        <!-- inicio menu desplegable-->
+                <div class="menuDesple">
 
-        <ul class="nav flex-column bg-dark mb-0">
-            <li class="nav-item">
-                <a href="#" class="nav-link text-light font-italic  bg-gradient">
+                 <ul class="navbar-nav ml-auto">
+
+                 <li class="nav-item dropdown">
+                 
+
+                 <a class="nav-link dropdown-toggle text-light" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Elegir Estandar
+                 </a>
+                 
+                 <div class="dropdown-menu dropdown-menu-left animate slideIn" aria-labelledby="navbarDropdown">
+                    
+                 <a href="#" class="dropdown-item text-black font-italic">
                     <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
-                    Seguridad y salud del trabajo
+                    Estandar - 1
                 </a>
-            </li>
 
-            <li class="nav-item">
-                <a href="#" class="nav-link text-light font-italic">
-                    <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i>
-                    Gestión ambiental
+                <a href="#" class="dropdown-item text-black font-italic">
+                    <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
+                    Estandar - 2
                 </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link text-light font-italic">
-                    <i class="fa fa-pie-chart mr-3 text-primary fa-fw"></i>
-                    Gestión de calidad
-                </a>
-            </li>
 
-        </ul>
+                <a href="#" class="dropdown-item text-black font-italic">
+                    <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
+                    Estandar - 3
+                </a>
+
+                <a href="#" class="dropdown-item text-black font-italic">
+                    <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
+                    Estandar - 4
+                </a>
+
+                <a href="#" class="dropdown-item text-black font-italic">
+                    <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
+                    Estandar - 5
+                </a>
+
+                <a href="#" class="dropdown-item text-black font-italic">
+                    <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
+                    Estandar - 6
+                </a>
+
+                <a href="#" class="dropdown-item text-black font-italic">
+                    <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
+                    Estandar - 7
+                </a>
+
+                </div>
+
+                 </li>
+
+              </ul>
+
+        </div>
+
+        </div>
+        <!-- fin menu desplegable-->
 
         <p class="text-gray font-weight-bold text-uppercase px-3 small py-2 mb-0">Más</p>
         <ul class="nav flex-column bg-dark mb-0">
@@ -409,6 +493,9 @@ if (!isset($nit)) {
 
         <script src="../../js/jquery-3.6.0.min.js"></script>
         <script src="../../estilos/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     </body>
 
