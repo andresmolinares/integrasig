@@ -187,7 +187,7 @@ if (!isset($nit)) {
         <p class="text-gray font-weight-bold text-uppercase px-3 small py-2 mb-0">Más</p>
         <ul class="nav flex-column bg-dark mb-0">
             <li class="nav-item">
-                <a href="../modelo/cerrar_sesion.php" class="nav-link text-light font-italic">
+                <a href="../../modelo/cerrar_sesion.php" class="nav-link text-light font-italic">
                     <button class="btn btn-danger">Cerrar sesión</button></br></br>
                 </a>
 
