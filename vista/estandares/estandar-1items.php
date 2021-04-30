@@ -203,7 +203,7 @@ if (!isset($nit)) {
 
     <body>
         <div class="page-content p-5  p-3 mb-5 bg-body rounded" id="content">
-            <h3 class="display-3 text-dark fw-bold titulo-items">Items</h3>
+            <h3 class="display-3 text-dark fw-bold titulo-items">Estandar 1 - Items</h3>
             <h4 class="display-5 text-dark fw-bold">Documentos</h4>
             <div class="btns-cre-su">
                 <tr>

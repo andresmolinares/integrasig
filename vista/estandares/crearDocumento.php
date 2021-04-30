@@ -239,7 +239,7 @@ if (!isset($nit)) {
 
     <body>
         <div class="page-content p-5  p-3 mb-5 bg-body rounded" id="content">
-            <h3 class="display-4 text-dark fw-bold estandar-tittulo">Crear Documento</h3>
+            <h3 class="display-4 text-dark fw-bold estandar-tittulo">Crear Documento/Matriz</h3>
             <hr>
         </div>
 
@@ -298,7 +298,7 @@ if (!isset($nit)) {
                         </div>
 
                         <div class="mb-3">
-                            <label for="" class="form-label">Documento a crear:</label>
+                            <label for="" class="form-label">Documento/Matriz a crear:</label>
                             <select class="form-select" aria-label="Disabled select example">
 
                                                     <option selected>Seleccionar</option>
