@@ -240,7 +240,7 @@ if (!isset($nit)) {
 
                             <td>
 
-                                <a href="#" class="btn btn-warning">Crear Matriz</a>
+                                <a href="crearMatrices.php" class="btn btn-warning">Crear Matriz</a>
                                 |
                                 <button onclick="subirMatriz()" class="btn btn-primary" id="btn2">Subir matriz</button>
                                 <script>
