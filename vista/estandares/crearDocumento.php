@@ -40,9 +40,9 @@ if (!isset($nit)) {
 
             .formu{
 
-                margin-left:20%;
+            margin-left:20%;
             margin-right:25%;
-            margin-top:5%;;
+            margin-top:5%;
 
             }
 
@@ -149,7 +149,7 @@ if (!isset($nit)) {
                         </a>
                         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                             <li class="nav-item">
-                                <a href="estandar-3items.php" class="nav-link align-middle px-0">
+                                <a href="estandar-2items.php" class="nav-link align-middle px-0">
                                 <i class="fs-4 bi-arrow-left-short"></i> <span class="ms-1 d-none d-sm-inline">Volver</span>
                                 </a>
                             </li>
@@ -207,6 +207,7 @@ if (!isset($nit)) {
             <h3 class="display-4 text-dark fw-bold estandar-tittulo">Crear Documento</h3>
             <hr>
 
+
             <div class="formu">
 
                    <form>
@@ -220,9 +221,9 @@ if (!isset($nit)) {
                             <label for="" class="form-label">Estandar:</label>
                             <select class="form-select" aria-label="Disabled select example" disabled>
                                                     <option>Seleccionar</option>
-                                                    <option value="">Estandar - 1</option>
+                                                    <option selected>Estandar - 1</option>
                                                     <option value="">Estandar - 2</option>
-                                                    <option selected>Estandar - 3</option>
+                                                    <option value="">Estandar - 3</option>
                                                     <option value="">Estandar - 4</option>
                                                     <option value="">Estandar - 5</option>
                                                     <option value="">Estandar - 6</option>
@@ -292,7 +293,7 @@ if (!isset($nit)) {
                         <button  type="submit" class="btn btn-warning boton1">Siguiente</button>
                         
                         
-                        <a href="estandar-3items.php" class="btn btn-primary boton2">Atras</a>
+                        <a href="estandar-2items.php" class="btn btn-primary boton2">Atras</a>
                         
 
                         </div>
