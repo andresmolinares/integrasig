@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,19 @@
     <title>Iniciar sesión</title>
     <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
     <style>
-        body{
+        body {
             background: whitesmoke;
         }
-        .bg{
-            background-color: #1b1b1b;
+
+        .bg {
+            background-image: url(../img/imagen.png);
             background-position: center center;
         }
+
+
     </style>
 </head>
+
 <body>
     <div class="container w-75 bg-primary mt-5 rounded shadow">
         <div class="row align-items-stretch">
@@ -27,7 +32,7 @@
                     <a href="index.html">
                         <img src="../img/logo2.png" width="65px" alt="">
                     </a>
-                    
+
                 </div>
                 <h2 class="fw-bold text-center pt-5 mb-4">Bienvenido</h2>
                 <form action="../modelo/validar_login.php" method="post">
@@ -46,14 +51,15 @@
                     </div>
 
                     <div class="d-grid">
-                        <button type ="submit" class="btn btn-danger">Iniciar Sesión</button></div></br>
-                    </div>
-
-                </form>
+                        <button type="submit" class="btn btn-danger">Iniciar Sesión</button>
+                    </div></br>
             </div>
+
+            </form>
         </div>
     </div>
-        <script src="../estilos/js/bootstrap.bundle.min.js"></script>
+    </div>
+    <script src="../estilos/js/bootstrap.bundle.min.js"></script>
     <!--
         <form class="box" action="../modelo/validar_login.php" method="post">
         <h1><b>Iniciar sesión</b></h1>
@@ -62,7 +68,8 @@
         <input type="submit" name="btn_iniciar" value="Login">
     </form>
 -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 </body>
+
 </html>

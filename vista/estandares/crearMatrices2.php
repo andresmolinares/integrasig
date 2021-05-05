@@ -146,6 +146,7 @@ if (!isset($nit)) {
 
 
     <body>
+        
     <div class="container-fluid">
             <div class="row flex-nowrap">
                 <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
@@ -155,34 +156,34 @@ if (!isset($nit)) {
                         </a>
                         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                             <li class="nav-item">
-                                <a href="estandar-2items.php" class="nav-link align-middle px-0">
+                                <a href="estandar-2items.php" class="nav-link align-middle px-0 link-danger">
                                 <i class="fs-4 bi-arrow-left-short"></i> <span class="ms-1 d-none d-sm-inline">Volver</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle link-danger">
                                     <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Estandares</span> </a>
                                 <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
-                                        <a href="estandar-1items.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Estandar</span>1</a>
+                                        <a href="estandar-1items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>1</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-2items.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Estandar</span>2</a>
+                                        <a href="estandar-2items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>2</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-3items.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Estandar</span>3</a>
+                                        <a href="estandar-3items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>3</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-4items.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Estandar</span>4</a>
+                                        <a href="estandar-4items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>4</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-5items.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Estandar</span>5</a>
+                                        <a href="estandar-5items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>5</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-6items.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Estandar</span>6</a>
+                                        <a href="estandar-6items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>6</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-7items.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Estandar</span>7</a>
+                                        <a href="estandar-7items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>7</a>
                                     </li>
                                 </ul>
                             </li>

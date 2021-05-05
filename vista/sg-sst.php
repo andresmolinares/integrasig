@@ -34,61 +34,61 @@
             </a>
             <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
               <li class="nav-item">
-                <a href="dashboard.php" class="nav-link align-middle px-0">
+                <a href="dashboard.php" class="nav-link align-middle px-0 link-danger">
                   <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                 </a>
               </li>
               <li>
-                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle link-danger">
                   <i class="fs-4 bi bi-grid-3x3"></i> <span class="ms-1 d-none d-sm-inline">Sistemas de gestión</span> </a>
                 <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                   <li class="w-100">
-                    <a href="sg-sst" class="nav-link px-0"> <span class="d-none d-sm-inline">Seguridad y salud</span></a>
+                    <a href="sg-sst" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Seguridad y salud</span></a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Gestión ambiental</span></a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Gestión ambiental</span></a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Gestión de calidad</span></a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Gestión de calidad</span></a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#" class="nav-link px-0 align-middle">
+                <a href="#" class="nav-link px-0 align-middle link-danger">
                   <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
               </li>
               <li>
-                <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle link-danger ">
                   <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
                 <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
                   <li class="w-100">
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class=" d-none d-sm-inline">Item</span> 1</a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Item</span> 2</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle link-danger">
                   <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
                 <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
                   <li class="w-100">
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Product</span> 1</a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Product</span> 2</a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Product</span> 3</a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
+                    <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Product</span> 4</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#" class="nav-link px-0 align-middle">
+                <a href="#" class="nav-link px-0 align-middle link-danger">
                   <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
               </li>
             </ul>
@@ -106,7 +106,6 @@
                   <hr class="dropdown-divider">
                 </li>
                 <li><a class="dropdown-item" href="../modelo/cerrar_sesion.php">Sign out</a></li>
-                
               </ul>
             </div>
           </div>
