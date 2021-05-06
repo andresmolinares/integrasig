@@ -2,8 +2,9 @@
 session_start();
 $nit = $_SESSION['nit'];
 
+
 if (!isset($nit)) {
-    header("location:../login.html");
+    header("location:../../../login.html");
 } else {
 
 ?>
@@ -15,8 +16,8 @@ if (!isset($nit)) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Estandar 1</title>
-        <link href="../../estilos/css/bootstrap.min.css" rel="stylesheet">
+        <title>Politica SG-SST</title>
+        <link href="../../../../estilos/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
@@ -140,7 +141,6 @@ if (!isset($nit)) {
 
 
     <body>
-
         <div class="container-fluid">
             <div class="row flex-nowrap">
                 <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
@@ -150,7 +150,7 @@ if (!isset($nit)) {
                         </a>
                         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                             <li class="nav-item">
-                                <a href="estandar-2items.php" class="nav-link align-middle px-0 link-danger">
+                                <a href="../../crearDocumento2.php" class="nav-link align-middle px-0 link-danger">
                                     <i class="fs-4 bi-arrow-left-short"></i> <span class="ms-1 d-none d-sm-inline">Volver</span>
                                 </a>
                             </li>
@@ -185,7 +185,7 @@ if (!isset($nit)) {
                         <hr>
                         <div class="dropdown pb-4">
                             <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="../../img/logo2.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                                <img src="../../../../img/logo2.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
                                 <span class="d-none d-sm-inline mx-1">User</span>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
@@ -195,7 +195,7 @@ if (!isset($nit)) {
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="../../modelo/cerrar_sesion.php">Sign out</a></li>
+                                <li><a class="dropdown-item" href="../../../../modelo/cerrar_sesion.php">Sign out</a></li>
 
 
                             </ul>
@@ -205,7 +205,7 @@ if (!isset($nit)) {
 
 
                 <div class="col py-3" id="content">
-                    <h3 class="display-4 text-dark fw-bold estandar-tittulo">Crear Documento</h3>
+                    <h3 class="display-4 text-dark fw-bold estandar-tittulo">Politica de SG-SST</h3>
                     <hr>
 
 
@@ -219,55 +219,20 @@ if (!isset($nit)) {
                             </div>
 
                             <div class="mb-3">
-                                <label for="" class="form-label">Estandar:</label>
-                                <select class="form-select" aria-label="Disabled select example" disabled>
-                                    <option>Seleccionar</option>
-                                    <option value="">Estandar - 1</option>
-                                    <option selected>Estandar - 2</option>
-                                    <option value="">Estandar - 3</option>
-                                    <option value="">Estandar - 4</option>
-                                    <option value="">Estandar - 5</option>
-                                    <option value="">Estandar - 6</option>
-                                    <option value="">Estandar - 7</option>
-
-                                </select>
+                                <label for="" class="form-label">A que se dedica la empresa:</label>
+                                <textarea class="form-control" id="especialidad_empresa"></textarea>
                             </div>
 
                             <div class="mb-3">
-                                <label for="" class="form-label">Item:</label>
-                                <select class="form-select" aria-label="Disabled select example">
-
-                                    <option selected>Seleccionar</option>
-
-                                    <option value="">2.1</option>
-
-
-                                </select>
+                                <label for="" class="form-label">Firma:</label>
+                                <input type="file" class="form-control" id="firma">
                             </div>
-
-                            <div class="mb-3">
-                                <label for="" class="form-label">Documento a crear:</label>
-                                <select class="form-select" aria-label="Disabled select example">
-
-                                    <option selected>Seleccionar</option>
-
-                                    <option value="">Politica de seguridad y gestion del trabajo</option>
-                                    <option value="">Acta de nombramiento</option>
-
-
-                                </select>
-                            </div>
-
 
                             <div class="position-relative">
 
-                                <a href="formularios/estandar2/politica-sgsst.php" class="btn btn-warning boton1">
-                                    Siguiente
-                                </a>
 
-
-
-                                <a href="estandar-2items.php" class="btn btn-primary boton2">Atras</a>
+                                <button type="submit" class="btn btn-warning boton1">Crear</button>
+                                <a href="../../estandar-2items.php" class="btn btn-primary boton2">Cancelar</a>
 
 
                             </div>
@@ -293,7 +258,7 @@ if (!isset($nit)) {
     </body>
 
     <script src="../../js/jquery-3.6.0.min.js"></script>
-    <script src="../../estilos/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../../estilos/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

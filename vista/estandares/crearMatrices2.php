@@ -49,7 +49,7 @@ if (!isset($nit)) {
             .position-relative{
 
             
-            left:325px;
+            left:200px;
 
             }
 
@@ -219,7 +219,8 @@ if (!isset($nit)) {
 
                         <div class="mb-3">
                             <label for="" class="form-label">Nit:</label>
-                            <input type="text" class="form-control" id="">
+                            <input type="text" class="form-control" id="nit" value=<?php echo $_SESSION['nit']; ?> disabled>
+                            
                         </div>
 
                         <div class="mb-3">
@@ -243,50 +244,19 @@ if (!isset($nit)) {
 
                                                     <option selected>Seleccionar</option>
 
-                                                    <option value="">1.1.1</option>
+                                                    <option value="">2.6</option>
 
-                                                    <option value="">1.1.2</option>
-
-                                                    <option value="">1.1.3</option>
-
-                                                    <option value="">1.1.5</option>
-
-                                                    <option value="">1.1.6</option>
-
-                                                    <option value="">1.1.7</option>
-
-                                                    <option value="">1.1.8</option>
-
-                                                    <option value="">1.2.1</option>
-
-                                                    <option value="">1.2.2</option>
-
-                                                    <option value="">1.2.3</option>
 
                                                     </select>
                         </div>
 
                         <div class="mb-3">
-                            <label for="" class="form-label">Documento a crear:</label>
+                            <label for="" class="form-label">Matriz a crear:</label>
                             <select class="form-select" aria-label="Disabled select example">
 
                                                     <option selected>Seleccionar</option>
 
-                                                    <option value="">Acta de nombramiento</option>
-
-                                                    <option value="">Acta conformacion</option>
-
-                                                    <option value="">Matriz de responsabilidad</option>
-
-                                                    <option v>Actividades de Riesgo, listado trabajadores</option>
-
-                                                    <option value="">Acta Mensual del vigia</option>
-
-                                                    <option value="">Programa capacitacion anual</option>
-
-                                                    <option value="">Induccion y reinduccion</option>
-
-                                                    <option value="">Responsable del SG-SST con curso de 50 Horas.</option>
+                                                    <option value="">Matriz de rendicion de cuentas</option>
 
                                                     </select>
                         </div>
@@ -295,7 +265,7 @@ if (!isset($nit)) {
                         <div class="position-relative">
 
                         
-                        <button  type="submit" class="btn btn-warning boton1">Siguiente</button>
+                        <a href="formularios/estandar2/rendicion-cuentas.php" class="btn btn-warning boton1">Siguiente</button>
                         
                         
                         <a href="./estandar-2items.php"  class="btn btn-primary boton2">Atras</a>

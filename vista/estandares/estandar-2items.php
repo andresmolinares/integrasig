@@ -15,7 +15,7 @@ if (!isset($nit)) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Estandar 1</title>
+        <title>Estandar 2</title>
         <link href="../../estilos/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="../../modelo/descargar.js"></script>
@@ -220,8 +220,8 @@ if (!isset($nit)) {
                 <tbody>
                     <!--Inicio de item-->
                     <tr>
-                        <td>1.1.1</td>
-                        <td>Acta de nombramiento</td>
+                        <td>2.1</td>
+                        <td>Politica de SG-SST</td>
                         <td>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
@@ -238,8 +238,8 @@ if (!isset($nit)) {
 
                     <!--Inicio de item-->
                     <tr>
-                        <td>1.1.6</td>
-                        <td>Acta nombreamiento del vigia</td>
+                        <td>2.8</td>
+                        <td>Comunicación externa o interna</td>
                         <td>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
@@ -254,37 +254,6 @@ if (!isset($nit)) {
                     </tr>
                     <!--Fin de Item-->
 
-                    <tr>
-                        <td>1.1.7</td>
-                        <td>Acta Mensual del vigia</td>
-                        <td>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
-                            </div>
-                        </td>
-                        <td>
-
-                        <button onclick="descargarDocumento()" class="btn btn-primary">Descargar Documento</button>
-                            |
-                            <a href="#" class="btn btn-primary">Archivos Subidos</a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>1.1.8</td>
-                        <td>Acta de Conformacion</td>
-                        <td>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
-                            </div>
-                        </td>
-                        <td>
-
-                        <button onclick="descargarDocumento()" class="btn btn-primary">Descargar Documento</button>
-                            |
-                            <a href="#" class="btn btn-primary">Archivos Subidos</a>
-                        </td>
-                    </tr>
 
                 </tbody>
 
@@ -344,8 +313,8 @@ if (!isset($nit)) {
                 <tbody>
                     <!--Inicio de item-->
                     <tr>
-                        <td>1.1.2</td>
-                        <td>Matriz de responsabilidad</td>
+                        <td>2.6</td>
+                        <td>Matriz de rendición de cuentas</td>
                         <td>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
