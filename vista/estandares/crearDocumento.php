@@ -214,7 +214,7 @@ if (!isset($nit)) {
 
                         <div class="mb-3">
                             <label for="" class="form-label">Nit:</label>
-                            <input type="text" class="form-control" id="">
+                            <input type="text" class="form-control" id="nit" value=<?php echo $_SESSION['nit']; ?> disabled>
                         </div>
 
                         <div class="mb-3">
@@ -290,7 +290,7 @@ if (!isset($nit)) {
                         <div class="position-relative">
 
                         
-                        <button  type="submit" class="btn btn-warning boton1">Siguiente</button>
+                        <a href="formularios/estandar1/responsable-SGSST.php" class="btn btn-warning boton1">Siguiente</a>
                         
                         
                         <a href="estandar-1items.php" class="btn btn-primary boton2">Atras</a>
