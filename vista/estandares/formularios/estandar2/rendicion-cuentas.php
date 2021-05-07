@@ -159,25 +159,25 @@ if (!isset($nit)) {
                                     <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Estandares</span> </a>
                                 <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                     <li class="w-100">
-                                        <a href="estandar-1items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>1</a>
+                                        <a href="../../estandar-1items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>1</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-2items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>2</a>
+                                        <a href="../../estandar-2items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>2</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-3items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>3</a>
+                                        <a href="../../estandar-3items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>3</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-4items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>4</a>
+                                        <a href="../../estandar-4items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>4</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-5items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>5</a>
+                                        <a href="../../estandar-5items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>5</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-6items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>6</a>
+                                        <a href="../../estandar-6items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>6</a>
                                     </li>
                                     <li>
-                                        <a href="estandar-7items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>7</a>
+                                        <a href="../../estandar-7items.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Estandar</span>7</a>
                                     </li>
                                 </ul>
                             </li>
