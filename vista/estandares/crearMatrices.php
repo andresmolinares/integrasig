@@ -227,8 +227,8 @@ if (!isset($nit)) {
          <label for="" class="form-label">Estandar:</label>
          <select class="form-select" aria-label="Disabled select example" disabled>
                                  <option>Seleccionar</option>
-                                 <option value="">Estandar - 1</option>
-                                 <option selected>Estandar - 2</option>
+                                 <option selected>Estandar - 1</option>
+                                 <option value="">Estandar - 2</option>
                                  <option value="">Estandar - 3</option>
                                  <option value="">Estandar - 4</option>
                                  <option value="">Estandar - 5</option>

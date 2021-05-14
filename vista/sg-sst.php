@@ -43,7 +43,7 @@
                   <i class="fs-4 bi bi-grid-3x3"></i> <span class="ms-1 d-none d-sm-inline">Sistemas de gestión</span> </a>
                 <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                   <li class="w-100">
-                    <a href="sg-sst" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Seguridad y salud</span></a>
+                    <a href="sg-sst.php" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Seguridad y salud</span></a>
                   </li>
                   <li>
                     <a href="#" class="nav-link px-0 link-danger"> <span class="d-none d-sm-inline">Gestión ambiental</span></a>
