@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
+    <style>
+        body {
+            background: whitesmoke;
+        }
+
+        .bg {
+            background-image: url(../img/imagen.png);
+            background-position: center center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Comienzo contenido login  -->
+    <div class="container w-75 bg-primary mt-5 rounded shadow">
+
+        <!-- Comienzo imagen login  -->
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+         </div>
+            <div class="col bg-white p-5 rounded-end">
+                <div class="text-center">
+                    <a href="index.html">
+                        <img src="../img/logo2.png" width="65px" alt="">
+                    </a>
+
+                </div>
+                <!-- final imagen login  -->
+
+
+                <!-- Comienzo formulario login  -->
+                <h2 class="fw-bold text-center pt-5 mb-4">Bienvenido</h2>
+                <form action="../modelo/validar_login.php" method="post">
+                    <div class="mb-4">
+                        <label for="nit" class="form-label">Nit</label>
+                        <input type="text" class="form-control" name="nit" placeholder="Nit">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" name="contraseña" placeholder="Contraseña">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-danger">Iniciar Sesión</button>
+                    </div></br>
+            </div>
+
+            </form>
+            <!-- final formulario login  -->
+        </div>
+    </div>
+    </div>
+    <!-- final contenido login  -->
+    <script src="../estilos/js/bootstrap.bundle.min.js"></script>
+    <!--
+        <form class="box" action="../modelo/validar_login.php" method="post">
+        <h1><b>Iniciar sesión</b></h1>
+        <input type="text" name="nit" placeholder="Nit o Cédula">
+        <input type="password" name="contraseña" placeholder="Contraseña">
+        <input type="submit" name="btn_iniciar" value="Login">
+    </form>
+-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+
+</html>
