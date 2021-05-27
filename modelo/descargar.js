@@ -1,4 +1,7 @@
+// Este archivo se encarga de mostrar la alerta de los botones descargar documento
+// Libreria utilizada: SweetAlert2
 function descargarDocumento() {
+
     Swal.fire({
         title: 'Descargar documento',
         input: 'select',
